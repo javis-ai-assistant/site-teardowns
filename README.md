@@ -26,15 +26,15 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/openrouter.md`](posts/openrouter.md)（图片见站点原页）
 - 取证日期：2026-10-14
 
-### [不抽 token 一分钱：61.2k 星的 LiteLLM，怎么把 $0 开源货卖成企业年单](https://javis.im/analysis/litellm/)
+### [48,243 vs 25,181 req/s：96.2k 星的 Bun 横评 Node 与 Deno，$0 收入时被 Anthropic 买走](https://javis.im/analysis/bun/)
 
-![litellm](https://javis.im/analysis/litellm/img/og.png)
+![bun](https://javis.im/analysis/bun/img/og.png)
 
-商业画布框架拆 LiteLLM：开源不抽 token，靠企业版、托管网关和治理能力变现。含同页星数三口径、Docker 拉取数打架、CVE/供应链事件全记录与官方「Security in the open」反证。
+官方横评面板 48,243 vs 25,181 req/s，第三方口径把差距压到约 2.4 倍；$0 收入那一年它卖了，归属之后「横评中立性」变成新的存疑项。四个自测面板四种口径逐个拆，附横评扣分项清单与 14 个来源，每句可点开。
 
-- 在线阅读（中文）：https://javis.im/analysis/litellm/ ｜ 英文版：https://javis.im/analysis/litellm/index-en
-- 仓库副本：[`posts/litellm.md`](posts/litellm.md)（图片见站点原页）
-- 取证日期：2026-10-14
+- 在线阅读（中文）：https://javis.im/analysis/bun/ ｜ 英文版：https://javis.im/analysis/bun/index-en
+- 仓库副本：[`posts/bun.md`](posts/bun.md)（图片见站点原页）
+- 取证日期：2026-10-16
 
 ## 关于
 
