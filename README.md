@@ -76,6 +76,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/plausible.md`](posts/plausible.md)（图片见站点原页）
 - 取证日期：2026-10-19
 
+### [被 GitHub 关停的 Atom 团队回来了：Zed 91,923 星、Stack Overflow 2026 官方口径 11.4%，而它刚把自己仓库的 PR 关掉](https://javis.im/analysis/zed/)
+
+![zed](https://javis.im/analysis/zed/img/og.png)
+
+对比横评两组数：星与 issue 口径对账（91,923 vs VS Code 193,972，3,104 = 2,316 + 788），Stack Overflow 2026 官方常用率 11.4% 排第 11；Rust 占 97.69% 的重写动机、性能对比表系当事人自写（标存疑）、$32M B 轮与 $0/$10/$30 三档定价，以及关掉自家 PR 的 Delta 路线。34 条来源四色标注，评分卡 92/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/zed/ ｜ 英文版：https://javis.im/analysis/zed/index-en
+- 仓库副本：[`posts/zed.md`](posts/zed.md)（图片见站点原页）
+- 取证日期：2026-10-20
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
