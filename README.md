@@ -46,6 +46,36 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/bun.md`](posts/bun.md)（图片见站点原页）
 - 取证日期：2026-10-16
 
+### [148,045 星、月下载 1.70 亿：LangChain 三年把自己写的高层抽象废掉两轮，1.0 留下的那个还搬了两次家](https://javis.im/analysis/langchain/)
+
+![langchain](https://javis.im/analysis/langchain/img/og.png)
+
+官网从框架退成平台营销页：三层开源分工（langchain / langgraph / deepagents）加 LangSmith 全流程商业化的技术栈考古。含 apex 域取证日 530 不可达的翻车记录、1.0 两次搬迁的家谱课与利益冲突披露，20+ 来源逐条可点开，评分卡 90/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/langchain/ ｜ 英文版：https://javis.im/analysis/langchain/index-en
+- 仓库副本：[`posts/langchain.md`](posts/langchain.md)（图片见站点原页）
+- 取证日期：2026-10-19
+
+### [111,751 星只是副产品：YC 最新批次 55% 用 Supabase、周下载 1,990 万，官方口径 70% 的新数据库由 AI agent 创建](https://javis.im/analysis/supabase/)
+
+![supabase](https://javis.im/analysis/supabase/img/og.png)
+
+增长拆解：星与周下载两条曲线 + YC 批次渗透 + 「70% 新库由 AI agent 创建」官方口径对账。含 34 个来源的口径打架清单与「不是 Firebase 的一比一映射」原文划界，全文按【事实】/【推断】/【观点】分色标注，评分卡 93/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/supabase/ ｜ 英文版：https://javis.im/analysis/supabase/index-en
+- 仓库副本：[`posts/supabase.md`](posts/supabase.md)（图片见站点原页）
+- 取证日期：2026-10-19
+
+### [773 字节脚本、24 小时销毁的盐、10 个人服务 21,000 家付费：审计 Plausible 的「免横幅」承诺](https://javis.im/analysis/plausible/)
+
+![plausible](https://javis.im/analysis/plausible/img/og.png)
+
+不做 cookie 横幅承诺的风险审计：脚本抓下来数一遍、数据管道逐条对账、法律距离量一遍、商业底稿翻一遍，最后给风险与存疑清单。32 个来源逐条取证，全文分色标注，评分卡 94/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/plausible/ ｜ 英文版：https://javis.im/analysis/plausible/index-en
+- 仓库副本：[`posts/plausible.md`](posts/plausible.md)（图片见站点原页）
+- 取证日期：2026-10-19
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
