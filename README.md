@@ -96,6 +96,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/n8n.md`](posts/n8n.md)（图片见站点原页）
 - 取证日期：2026-10-20
 
+### [主仓 29 星、月下载 689 万次：$80M B 轮、第三方记作 $800M 的 Braintrust，开源外壳里包着自研 Rust 数据库，旗舰 proxy 还被自己标了 deprecated](https://javis.im/analysis/braintrust/)
+
+![braintrust](https://javis.im/analysis/braintrust/img/og.png)
+
+技术栈考古：108 个开源仓外圈（autoevals 1,063★ 占全 org 45%）+ npm/PyPI 月下载 1,346 万 vs 主仓 29 星的倒挂 + 控制面/数据面分离与自研 Brainstore 内核 + proxy deprecated→gateway 迁移痕迹。附 2026-05 AWS 泄密全员换 key、四段资本口径对账（官方通篇不写估值），37 条来源四色标注，评分卡 89/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/braintrust/ ｜ 英文版：https://javis.im/analysis/braintrust/index-en
+- 仓库副本：[`posts/braintrust.md`](posts/braintrust.md)（图片见站点原页）
+- 取证日期：2026-10-21
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
