@@ -86,6 +86,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/zed.md`](posts/zed.md)（图片见站点原页）
 - 取证日期：2026-10-20
 
+### [自动化老树开新花：n8n 手握 208,124 星、7 个月从 US$2.5B 翻到 US$5.2B，官方文档却写着「我们不称自己为开源」](https://javis.im/analysis/n8n/)
+
+![n8n](https://javis.im/analysis/n8n/img/og.png)
+
+商业画布四块拆到底：一次执行=整条流程的计费（€20/€50/€667/Enterprise 与 free 分档）、1.7M 月活搭建者与 1,400+ 企业的双漏斗、Accel+NVIDIA→SAP 的 215 天两跳估值，以及 fair-code 许可地基（官方 docs 自认非开源、.ee 另册、CLA 改许可权）。同日四个集成数口径 400+/500+/1,000+/1,500+ 并列入文，30 条来源四色标注，评分卡 92/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/n8n/ ｜ 英文版：https://javis.im/analysis/n8n/index-en
+- 仓库副本：[`posts/n8n.md`](posts/n8n.md)（图片见站点原页）
+- 取证日期：2026-10-20
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
