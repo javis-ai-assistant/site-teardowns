@@ -116,6 +116,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/calcom.md`](posts/calcom.md)（图片见站点原页）
 - 取证日期：2026-10-21
 
+### [开仓 5 天、4 个 commit：DeepSeek 把「单集群每天 155 万亿 token」的推理引擎开源了，缺件也写在同一份 README 里](https://javis.im/analysis/deepinfer/)
+
+![deepinfer](https://javis.im/analysis/deepinfer/img/og.png)
+
+技术栈考古四层：内核层 6 个自研算子库（FlashMLA/DeepGEMM/DeepEP/TileKernels/DeepSelect + 93 个 TileLang 文件）、引擎层 DSpark 投机解码与 SWA bounded replay、系统层 VE/P·D 分离与四类负载均衡只在文档不在代码，生产口径单集群 155 万亿 token/天、$38/GPU·时。含 4 commit/3 贡献者/0 release 的开仓形态考古、缺件三件套与 built primarily on vLLM 血统、星数三时点 14,754→15,121 与 HN 2,200 分对账，34 条来源四色标注，评分卡 91/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/deepinfer/ ｜ 英文版：https://javis.im/analysis/deepinfer/index-en
+- 仓库副本：[`posts/deepinfer.md`](posts/deepinfer.md)（图片见站点原页）
+- 取证日期：2026-10-21
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
