@@ -106,6 +106,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/braintrust.md`](posts/braintrust.md)（图片见站点原页）
 - 取证日期：2026-10-21
 
+### [五年开源、49,185 星：Cal.com 把生产代码搬进私库，公仓只剩自认「别上生产」的 Cal.diy](https://javis.im/analysis/calcom/)
+
+![calcom](https://javis.im/analysis/calcom/img/og.png)
+
+增长拆解：5 年开源、49,185 星的排期站 2026-04 把生产代码搬进私库，公仓改名 Cal.diy、删掉 12 类企业功能（含整个 API v1）。含 AGPLv3 + ee/ 商业许可到 MIT 社区版的许可考古、722 篇博客的程序化 SEO、四档定价与 Calendly 征战页、停在 2022-04 的 $32.4M 融资与 $5.1M 收入口径对账，34 条来源四色标注，评分卡 91/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/calcom/ ｜ 英文版：https://javis.im/analysis/calcom/index-en
+- 仓库副本：[`posts/calcom.md`](posts/calcom.md)（图片见站点原页）
+- 取证日期：2026-10-21
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
