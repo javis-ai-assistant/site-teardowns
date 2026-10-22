@@ -136,6 +136,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/voicestudio.md`](posts/voicestudio.md)（图片见站点原页）
 - 取证日期：2026-10-22
 
+### [11 个月 41 → 43,746 星：Anthropic 官方插件仓的 4,630 次提交里，73.8% 是机器人写的](https://javis.im/analysis/claude-plugins/)
+
+![claude-plugins](https://javis.im/analysis/claude-plugins/img/og.png)
+
+增长拆解：11 个月星数 41 → 43,746（Wayback 9 个快照拼出五台阶，最后 8 天 +5,646、Trending 周榜 +5,703），4,630 次提交里 github-actions[bot] 占 3,417 次 = 73.8%、5,516 个 PR 里 3,721 个 = 67.5% 是版本号 bump、releases 与 tags 双 0；marketplace.json 315 条中 262 条指向外部仓（83% 是指针不是代码），官方文档自认「Most of what it lists comes from partners」。含 315 / 341 / 2,000+ 三个对外数字与「launched May 22」的口径战、付费墙提交门与 1,045 个 open issue（「已发布却不见」同型复发）、PromptArmor 绕过确认与官方免责对读、母厂 $65B Series H @ $965B 而仓本身零收入，64 条来源四色标注，评分卡 87/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/claude-plugins/ ｜ 英文版：https://javis.im/analysis/claude-plugins/index-en
+- 仓库副本：[`posts/claude-plugins.md`](posts/claude-plugins.md)（图片见站点原页）
+- 取证日期：2026-10-22
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
