@@ -126,6 +126,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/deepinfer.md`](posts/deepinfer.md)（图片见站点原页）
 - 取证日期：2026-10-21
 
+### [6 个月 80,473 星、HN 只有 6 分：这个「免费 ElevenLabs」的默认引擎，权重写着 CC-BY-NC](https://javis.im/analysis/voicestudio/)
+
+![voicestudio](https://javis.im/analysis/voicestudio/img/og.png)
+
+对比横评：官网自建四列比价表逐行对账（646 语言我逐行数成立、ElevenLabs「74」官方只写 70+）+ 价格 $0/$99/$299 对 $6→$990 + 三层许可（应用 AGPL-3.0 商用免授权 / 默认引擎 k2-fsa/OmniVoice 权重 CC-BY-NC / tokenizer Boson Higgs Audio 2 + Meta Llama）。含 646 语言里 265 个训练材料不足 10 小时（中位 10.18h、英语占 35.4%）、Pro $99/年闭源与 Cloud「Nothing is live yet」、6 个月 80,473 星却 HN 6 分 0 评论（9 次提交、域名零提交）的渠道错位、克隆域名与支付双口径存疑，38 条来源四色标注，评分卡 92/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/voicestudio/ ｜ 英文版：https://javis.im/analysis/voicestudio/index-en
+- 仓库副本：[`posts/voicestudio.md`](posts/voicestudio.md)（图片见站点原页）
+- 取证日期：2026-10-22
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
