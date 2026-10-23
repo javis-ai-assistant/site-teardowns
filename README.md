@@ -146,6 +146,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/claude-plugins.md`](posts/claude-plugins.md)（图片见站点原页）
 - 取证日期：2026-10-22
 
+### [一年估值翻倍、零新钱入账：Linear 的商业画布上，写着一次没公告的 25% 涨价和一句「Issue tracking is dead」](https://javis.im/analysis/linear/)
+
+![linear](https://javis.im/analysis/linear/img/og.png)
+
+商业画布：一年估值翻倍且零新钱入账——Series C $82M@$1.25B（2025-06）→ 员工 tender $99M@$2.5B（2026-08-26），Dealroom 原文「money went to employees rather than balance sheet」；本机 Wayback 双快照抓到无公告涨价 $8/$14 → $10/$16（+25%/+14.3%，比价站口径与快照差一天已如实标注）；CEO 2026-03-24《Issue tracking is dead》与 5 个月后 now 页数字口径不一（75%+ vs 95% 付费工作区、3 个月 5x vs 3%→50%）；$100M ARR + 40,000 公司 + NRR 177% 对 Atlassian FY26 订阅 ARR $6,606M ≈ 66×；同一品类一年内 Height 关店（$18.3M 融资）与 Linear 翻倍同框，含 3-24 权限事故与 /data 五数，55 条来源四色标注，评分卡 90/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/linear/ ｜ 英文版：https://javis.im/analysis/linear/index-en
+- 仓库副本：[`posts/linear.md`](posts/linear.md)（图片见站点原页）
+- 取证日期：2026-10-23
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
