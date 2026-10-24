@@ -156,6 +156,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/linear.md`](posts/linear.md)（图片见站点原页）
 - 取证日期：2026-10-23
 
+### [Issues 关门那一周，main 已经静默四个月：把 context-mode 的 599 个文件、4 篇 ADR 和「707.5k+ users」徽章摊开](https://javis.im/analysis/context-mode/)
+
+![context-mode](https://javis.im/analysis/context-mode/img/og.png)
+
+技术栈考古：8 个月 0 → 32,008 星的 MCP server（五周 +8,981 星 / +39%），关停窗口被三路证据锁死在 2026-10-10~10-17（Wayback 导航六 tab 掉到四项、`has_issues:false` 而 `open_issues_count` 仍挂 356、`GET /issues/482` 回 410 而对照组 linux 页 200）；main 最后一次人类提交停在 2026-06-29（1.0.169），此后 184 个提交 100% 是 `github-actions[bot]` 的 `ci: update install stats`，真开发走 `v2-design` 等实验分支；三处口径审计：98% 实为 `ctx_execute_file` 子项小计（21 场景总览 96%、最差单场景只省 13%）、「707.5k+ users」= npm 643.6k + marketplace 63.9k 两个累计下载相加（月下载 5 月 122,969 → 9 月 87,392 已回落 29%）、「Used across teams at」18 个大厂徽章 href 全是 `#`；ADR-0004 自供状态栏百分比 56%↔95.4% 漂移 49 个百分点；许可 MIT→ELv2 距发布博文仅 5 天（spdx NOASSERTION），同期官网四档价目 Free/$20/$49/Team；单人结构 mksglu 1,372 提交 = 61.5%；63 条来源四色标注，评分卡 87/100。
+
+- 在线阅读（中文）：https://javis.im/analysis/context-mode/ ｜ 英文版：https://javis.im/analysis/context-mode/index-en
+- 仓库副本：[`posts/context-mode.md`](posts/context-mode.md)（图片见站点原页）
+- 取证日期：2026-10-24
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
