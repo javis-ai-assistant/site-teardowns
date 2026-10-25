@@ -166,6 +166,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/context-mode.md`](posts/context-mode.md)（图片见站点原页）
 - 取证日期：2026-10-24
 
+### [9 个月 40 倍、星标只涨 5 倍：opencode 221,369★ 背后的三本账，只有两本能对上](https://javis.im/analysis/opencode/)
+
+![opencode](https://javis.im/analysis/opencode/img/og.png)
+
+增长拆解：18 个月从 206★ 涨到 221,369★ 的开源 coding agent，官网首页同一张表里 9 个月月活宣称 400,000 → 16,000,000（40 倍）而同期星标宣称 41,000 → 208,000（5.07 倍），两条曲线斜率差近 8 倍；四个官网数字逐个对第三方尺子——`stargazers_count` 221,369 与仓库 20,893 Commits 能对上，**950 contributors** 在两套可复现口径之间（默认分支注册身份 455 / 含匿名 git 身份 1,069，官网自己 2026-04-01 页面载荷写的是 453），**16M monthly devs** 无任何第三方口径而 npm CLI 合计 ≈11.7M（赛道第三名，落后 @openai/codex 7.2 倍、@anthropic-ai/claude-code 3.9 倍），判定为「不可复现」而非「被证伪」；供给侧 173 天发 100 版、第 2 贡献者是机器人；代价三笔都有可点开出处：10-17 大规模蒸馏攻击披露（当事人主张影响 1.4% Console 用户，issue #10416 开题到关闭 150 天、个人预警早 68 天）、CVE-2026-22812 无鉴权本地服务（3 处静默修复 + 报告时 8 项未修，CORS 白名单硬编码 `*.opencode.ai`）、PR #18186「anthropic legal requests」18.6 分钟删完四条；钱线 sst → Anomaly Innovations，Zen 自称 not for profit（充 $20 收 $1.23 手续费）vs Enterprise 自带网关免 token 费，融资与收入零公开只写「无公开口径」；批评方 wren.wtf《Stop Using OpenCode》420 分双侧并列，评分卡 90/100，66 条来源四色标注、取证包 242 文件 / 72 唯一 URL。
+
+- 在线阅读（中文）：https://javis.im/analysis/opencode/ ｜ 英文版：https://javis.im/analysis/opencode/index-en
+- 仓库副本：[`posts/opencode.md`](posts/opencode.md)（图片见站点原页）
+- 取证日期：2026-10-25
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
