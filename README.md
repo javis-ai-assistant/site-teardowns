@@ -176,6 +176,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/opencode.md`](posts/opencode.md)（图片见站点原页）
 - 取证日期：2026-10-25
 
+### [零收入的 393,064★：OpenClaw 把钱挡在门外，六大金主反而排队打钱](https://javis.im/analysis/openclaw/)
+
+![openclaw](https://javis.im/analysis/openclaw/img/og.png)
+
+商业画布：一个自己一分钱都不进的开源 agent，11 个月从 0 长到 393,064★（仓库 2025-11-24 创建，取证日 2026-10-26），第四格（收入）却是明写在首页/README/页脚的空——「No subscription. No hosted tier. No token.」+ 29 个消息渠道跑在用户自己机器上；钱从六个方向排队进来：501(c)(3) 捐赠页列六家机构捐助方（Microsoft、NVIDIA、Offline Holdings、OpenAI、Red Hat、University of Michigan，密歇根为最大捐赠方并落地 Institute for Agentic Computing）+ GitHub Sponsors 329 位个人，而捐赠页与页脚两份名单只交集 4 家；增长两段式：Wayback 快照锁出 2026-01-30 → 04-01 的 61 天（9 周）+237,633★、日均 ≈3,896 星（2026-01-29 改名公告即引爆，100,000★ + 单周 200 万访客为官方自述），随后 6 个月只 +47,347★，平台期靠 release 节奏与捐助名录续量；渠道 HN 检索 1,712 条命中、分数前三里两条是模型厂限制措施、一条是安全事件（最高分头条 1,349 分）；壁垒在代码之外：29 渠道、65 个周边开源项目、56,178 已关闭 issue / 117,531 已关闭 PR、383 位贡献者；组织 10 人全职 + 8 个在招岗位，119,647 提交中 56.1% 出自同一个人；关键活动 271 个 release、44 天发 30 版（2026-09-10 → 10-24）、LTS 与成熟度记分卡；代价：CVSS 9.4 特权提升漏洞、「太创始人驱动」自评与改名三连（法务边界变品牌资产）；对照轴 Hermas 257,101★、仿冒站 openclaw-ai.net 只作素材；评分卡 93/100，54 条来源四色标注、取证包 61 文件 / 52 唯一 URL。
+
+- 在线阅读（中文）：https://javis.im/analysis/openclaw/ ｜ 英文版：https://javis.im/analysis/openclaw/index-en
+- 仓库副本：[`posts/openclaw.md`](posts/openclaw.md)（图片见站点原页）
+- 取证日期：2026-10-26
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
