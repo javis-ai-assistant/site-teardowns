@@ -186,6 +186,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/openclaw.md`](posts/openclaw.md)（图片见站点原页）
 - 取证日期：2026-10-26
 
+### [7 个月只有 137★，再 8 个月冲到 257,319★：Hermes Agent 与 OpenClaw，两条都成了，钱的走法相反](https://javis.im/analysis/hermes-agent/)
+
+![hermes-agent](https://javis.im/analysis/hermes-agent/img/og.png)
+
+对比横评：同一个赛道、同一种爆款曲线，两条都成了，钱的走法相反——Hermes Agent（NousResearch/hermes-agent）建仓 2025-07-22 后 7 个月只有 137★（2026-02-25 Wayback 读数），官网 2026-03-05 首次被收录、03-08 到 2,297★，此后 7 个多月冲到 250,484★（10-01 快照），取证日 API 257,319★ / 页面 257,321★；对照方 OpenClaw（第 18 篇）是 9 周 +237,633★、11 个月 393,064★，两条曲线最后都收敛到日均约 260★（263 vs 259）。钱的走法相反：Hermes 走公司——TechCrunch 2026-10-07 $90M B 轮 @$1.5B（Robot Ventures 领投，Nvidia、USV、Menlo、Samsung、1789 参与）、累计融资 $158M，agent 本体 MIT 免费、收入挂 Nous Portal 四档订阅 $0/$20/$100/$200；OpenClaw 走 501(c)(3) 基金会——首页/README/页脚三处明写无订阅、无托管、无 token、零收入，钱从 6 家机构捐助方 + GitHub Sponsors 329 位个人进来。八格同口径对照（每格双方都有出处）：提交 59,466 / 119,646，贡献者 401 / 383，第一贡献者集中度 teknium1 47.7% / steipete 58.9%，issue 关闭率 53.7% vs 91.7%，PR 68.3% vs 97.7%（search 同算法），官网渠道 7 vs 29。HN 声量结构反向：Hermes 高分几乎全是事件（HERMES.md 计费事件 1,251 分、迁移潮 122 分、产品帖仅 52 分），OpenClaw 是产品与对抗话题直接高分（1,349 / 1,099）。治理差异：issue #10232 28 秒 4 次封禁、10 秒 4 次删评、标题被改写成「.」，对照 OpenClaw 把发版事故写成《OpenClaw Had a Rough Week》并换来 10 人团队 + 8 个在招岗位；安全代价 CVE-2026-9366 / CVE-2026-10221 CVSS 7.3（记录写明厂商未回应）vs CVE-2026-33579 9.4；假官方域名战两边都有，Hermes 侧粉丝商业站还在收钱。Hermes 官方自估（克隆 2,400 万+、约 2.5% 全球 AI token、年化 $36M→$100M）一律标【存疑】。框架卡=对比横评，评分卡复核 89/100（预分 88），Hermes 侧 49 条唯一来源四色标注、取证包 121 文件 / 49 唯一 URL，OpenClaw 侧复用第 18 篇 61 文件 / 52 唯一 URL。
+
+- 在线阅读（中文）：https://javis.im/analysis/hermes-agent/ ｜ 英文版：https://javis.im/analysis/hermes-agent/index-en
+- 仓库副本：[`posts/hermes-agent.md`](posts/hermes-agent.md)（图片见站点原页）
+- 取证日期：2026-10-27
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
