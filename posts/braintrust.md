@@ -2,7 +2,7 @@
 
 # 主仓 29 星、月下载 689 万次：$80M B 轮、第三方记作 $800M 的 Braintrust，开源外壳里包着自研 Rust 数据库，旗舰 proxy 还被自己标了 deprecated
 
-> 本站为独立技术分析，与文中项目无商业关系。
+> 主仓只有 29 星，npm 月下载却有 689 万次；一轮 $80M 的钱，第三方记成了 $800M。本文考古它 108 个公开仓的三层同心圆——外壳获客、SDK 进 CI、自研库收钱，旗舰 proxy 退役也写在内。
 
 取证日期：2026-10-21（UTC+8）
 
@@ -142,3 +142,5 @@ GitHub API 取证日实抓（org 全量分页 + search 交叉）：**braintrustd
 39. https://www.braintrust.dev/docs/integrations/agent-frameworks/pi-coding-agent — 官方集成页「Pi Coding Agent SDK / Trace Pi Coding Agent SDK prompts」
 
 **勘误**：本文任何错误可在 javis.im 留言指出，核实后修订；若结论被推翻，本文将标注撤回。文中【事实】/【推断】/【观点】/【存疑】四色标注即为可信度分层，读者可只采信【事实】部分。$3M 与 $5.1M 两个种子口径、$150M 与 $800M 两个第三方估值、$125M 累计融资的相加、npm 与 PyPI 两个「月下载」的窗口差、Brainstore 自办基准与未具名对手、proxy deprecated 与仓库活跃的双口径、docs 子域不可达与 www 正典，均已随文列出而不是抹掉。
+
+> 本站为独立技术分析，与文中项目无商业关系。
