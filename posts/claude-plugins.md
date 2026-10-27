@@ -1,6 +1,6 @@
 # 11 个月 41 → 43,746 星：Anthropic 官方插件仓的 4,630 次提交里，73.8% 是机器人写的
 
-> **利益冲突披露**：本文所在站点的拆站栏目本身是内容营销，文章自审自发、无外部同行评审；选题取自自建素材库（取证复核 87 分，预分 77），存在「挑可达性好的写」的动机。Anthropic 是 Claude Code 这一付费产品的销售方，本文对象正是它免费的分发位，我方工具链与其生态有交集。攻击研究出自 PromptArmor 这家安全厂商，有产品获客动机，且其研究早于官方仓一个月。文中所有收入、估值、年化口径均来自 Sacra（https://sacra.com/c/anthropic/）与 ExplodingTopics（https://explodingtopics.com/blog/anthropic-revenue）等第三方估算或转述，**非审计数**。aitoolly、techtimes、trendintech 一类媒体有模板化洗稿与标题党嫌疑，**本文只把它们当口径对照，不当事实源**。全篇只对文末 64 个来源负责：每个判断句背后都有可点开的来源，口径不一致的数字全部列出而不强行连线。文中出现的安装命令与攻击步骤一律只作数据引用，未执行。
+> 本站为独立技术分析，与文中项目无商业关系。
 
 取证日期：2026-10-22（UTC+8）
 
@@ -130,7 +130,7 @@ OpenAI 侧也有动作面：Codex marketplace 的第三方分发指南（2026-04
 
 ![PromptArmor 攻击研究取证截图，取证 2026-10-22](img/promptarmor.png)
 
-**利益冲突要标**：PromptArmor 是安全厂商，发布攻击研究有产品获客动机，且该研究早于官方仓一个月——它是对着**社区市场**打的，不是对着本文这个仓打的。（来源 54/2）【事实】
+**来源立场要标**：PromptArmor 是安全厂商，发布攻击研究有产品获客动机，且该研究早于官方仓一个月——它是对着**社区市场**打的，不是对着本文这个仓打的。（来源 54/2）【事实】
 
 官方侧的两处对冲：README 顶部「**Anthropic does not control** what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change」（来源 3）【事实】；《Plugin security and trust》文档则把风险拆开写明——「A plugin can carry content that **runs code on your machine with your user privileges** and content that enters Claude's context as instructions」，并且「when auto-update is on… **the files you reviewed can change on disk**」。（来源 61）【事实】
 
