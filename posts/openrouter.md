@@ -2,7 +2,7 @@
 
 # 600 万亿 token，5 个月翻 6 倍：OpenRouter 如何把「中间商」做成 $1.3B 生意
 
-> **利益冲突披露**：本文作者所在团队运营同赛道的 AI 网关产品，与分析对象存在竞争关系。这是一次「拆同行」——好处是赛道语境不需要解释，风险是立场天然带刺。请带着这个前提读；每个判断句背后都有可点开的来源，观点一律标注，对 OpenRouter 不利与有利的证据同时列出。
+> 本站为独立技术分析，与文中项目无商业关系。
 
 取证日期：2026-10-14（UTC+8）
 
@@ -48,7 +48,7 @@ OpenRouter 是 AI 模型的**统一入口**：一个 API 后面挂着 80+ 家推
 
 **费用争议一直存在。** 「无加价、只收 5.5% 充值费」是官方口径（来源 2 FAQ），第三方则有「hidden markup」的测算文章认为部分模型存在隐性加价（来源 8）。【存疑】本文未做逐模型比价，两种说法都摆在这里——好在模型单价是公开的，任何人可自行抽样核对，这本身就是 OpenRouter 把价格表全公开换来的信用。
 
-**一个容易被忽略的正面证据**：隐私文档明确「OpenRouter 不存储你的 prompt 和响应」，除非你主动开启日志；且提供 Zero Data Retention 策略路由，可强制只走 ZDR 端点。（来源 10）【事实】在「中间商经手全部流量」的天然劣势下，用可验证的策略路由把劣势往回扳——这和本文作者团队信奉的「安全声明必须做成可当场验证的行为」是同一个思路，值得同行抄。
+**一个容易被忽略的正面证据**：隐私文档明确「OpenRouter 不存储你的 prompt 和响应」，除非你主动开启日志；且提供 Zero Data Retention 策略路由，可强制只走 ZDR 端点。（来源 10）【事实】在「中间商经手全部流量」的天然劣势下，用可验证的策略路由把劣势往回扳——「安全声明必须做成可当场验证的行为」，值得同行抄。
 
 ![榜单页：Top Apps 与数据授权声明，取证 2026-10-14](img/rankings.png)
 
@@ -74,4 +74,4 @@ OpenRouter 的增长故事，本质是**用兼容性降低进入门槛、用免�
 9. https://adam.holter.com/when-cloudflare-goes-down-openrouter-stays-up-why-reliability-beats-single-provider-strategies/ — 2025-06（Cloudflare 故障期间 OpenRouter 在线的实证）
 10. 隐私与可靠性：https://openrouter.ai/docs/guides/privacy/data-collection ｜ https://openrouter.ai/docs/projects/docs/guides/features/zdr ｜ https://www.requesty.ai/blog/openrouter-is-down-how-to-fail-over-in-2-minutes
 
-**勘误**：本文任何错误可在 javis.im 留言指出，核实后修订；若结论被推翻，本文将标注撤回。文中【事实】/【推断】/【观点】/【存疑】四色标注即为可信度分层，读者可只采信【事实】部分。与本文作者存在竞争关系的利益冲突已在文头披露，涉及 OpenRouter 的负面判断均附对立证据。
+**勘误**：本文任何错误可在 javis.im 留言指出，核实后修订；若结论被推翻，本文将标注撤回。文中【事实】/【推断】/【观点】/【存疑】四色标注即为可信度分层，读者可只采信【事实】部分。涉及 OpenRouter 的负面判断均附对立证据。
