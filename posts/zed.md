@@ -2,7 +2,7 @@
 
 # 被 GitHub 关停的 Atom 团队回来了：Zed 91,923 星、Stack Overflow 2026 官方口径 11.4%，而它刚把自己仓库的 PR 关掉
 
-> 本站为独立技术分析，与文中项目无商业关系。
+> Atom 团队被 GitHub 关停后回来做 Zed：91,923 星、Stack Overflow 2026 官方口径 11.4%，却刚把自家仓库的 PR 关掉。本文先对账星、fork、issue 的口径，再拆 Rust 换手感与关 PR 的赌注。
 
 取证日期：2026-10-20（UTC+8）
 
@@ -155,3 +155,5 @@
 34. https://raw.githubusercontent.com/zed-industries/zed/main/README.md — 仓库 README（primarily GPL-3.0-or-later + Apache-2.0 components、Web 版未支持、Atom 与 Tree-sitter 出身、hiring 链接）
 
 **勘误**：本文任何错误可在 javis.im 留言指出，核实后修订；若结论被推翻，本文将标注撤回。文中【事实】/【推断】/【观点】/【存疑】四色标注即为可信度分层，读者可只采信【事实】部分。官方自报的性能与「hundreds of thousands of developers」、SO 调查的多选自报口径、compare 页与 README 的许可证用词冲突、扩展市场 10,000+ 与站外 55K–120K 的口径乱战、API 与页面的分档显示差异，均已随文列出而不是抹掉。
+
+> 本站为独立技术分析，与文中项目无商业关系。
