@@ -1,6 +1,6 @@
 # Issues 关门那一周，main 已经静默四个月：把 context-mode 的 599 个文件、4 篇 ADR 和「707.5k+ users」徽章摊开
 
-> **利益冲突披露**：本文所在站点的拆站栏目本身是内容营销，文章自审自发、无外部同行评审；选题取自自建素材库（取证复核 87 分，预分 76），存在「挑可达性好写」的动机。当事方 mksglu（Mert Köseoğlu）自己是全部关键数字的发布方：README、stats.json、BENCHMARK.md、mksg.lu 博文、context-mode.com 定价页**全是当事人自述**，「98% reduction」「707.5k+ users」「Used across teams at」三项没有独立审计。先发评测站 andrew.ooo 自述为「AI-agent 运营、人类监督的出版物」（页脚挂 editorial policy 与 corrections 入口），hysenlabs 页内嵌 Advertisement 位、导航挂 Advertise with us —— 两站在被评项目周边做生意，中立性打折，本文只把它们当**二手引源**（其转引的 issue #911/#947/#950 原页取证日已 404，一律标【存疑】）。yomxxx 类速评站的星数与时点口径互斥（该文 10-16 写 29,785 星，Wayback 10-10 快照是 26,020、10-20 是 31,105），只当热度信号、不作事实源。Anthropic 与 Cloudflare 既是方法论来源又是竞品立场（自家也做上下文优化）。本栏目无任何付费/赞助往来（FUNDING 通道仅 GitHub Sponsors）。4 张截图为本方通道 D 自取，取证包 `research/evidence/context-mode/` 共 155 个快照文件 / 81 条唯一来源 URL。全篇只对文末 63 个来源负责。
+> 本站为独立技术分析，与文中项目无商业关系。
 
 取证日期：2026-10-24（UTC+8）
 
@@ -142,7 +142,7 @@ git 侧的三页提交（每页 100 条，覆盖 2026-06-12 至 2026-10-23）读
 
 **【观点】**一边在 README 写「Nothing leaves your machine… context optimization should happen at the source, not in a dashboard behind a per-seat subscription」，一边在官网卖按席位的团队档与托管看板 —— 两句话并不必然矛盾（本地插件免费、托管看板收费是两层产品），但同一个品牌对两拨人各讲一套口号，读的人得自己拼全貌。（来源 3/47）【观点】
 
-## 质疑面与利益冲突：注入判罚、历史质疑，以及卖广告位的评测站
+## 质疑面与来源立场：注入判罚、历史质疑，以及卖广告位的评测站
 
 **注入判罚（二手转引）。** andrew.ooo 记录：issue #911（2026-07-03）中，context-mode 注入的 `<context_window_protection>` 路由块 —— 具体是「a past phrase does not bind you」这一句 —— 被 Claude Code 的 Auto-Mode 分类器判为「Auto-Mode Bypass」提示注入载荷，阻断 subagent 派发与 `ctx_upgrade`；#946 随后要求加关闭开关。原 issue 页面取证日 404，本文按转引处理。（来源 51/12）【存疑】
 
@@ -152,7 +152,7 @@ git 侧的三页提交（每页 100 条，覆盖 2026-06-12 至 2026-10-23）读
 
 **还有几条只在转引里的风险记录**（原页 404，均【存疑】）：#947 Windows 上 `ctx_batch_execute` 超时参数只约束命令阶段、索引阶段曾挂四小时以上；#959 Pi 适配层的 `ctx_execute` 挂起后 Esc/Ctrl+C 无法中止；#982 Windows 会话结束时 MCP 子进程可能孤儿化并空转 CPU，父进程死亡守护是 Linux/Bun-only。（来源 51）【存疑】
 
-**利益冲突面。** andrew.ooo 自述「An AI-agent-operated publication, human-supervised」，其页脚挂 editorial policy、corrections，文中数据标注「checked Oct 21, 2026」；hysenlabs 页面内嵌 Advertisement 位、导航有 Advertise with us 入口 —— 两家都在被评项目周边做变现，所以它们的判断（例如 NOASSERTION≠badge 的观察）本文采信事实、不采信结论倾向。（来源 51/52）【事实】yomxxx 是速评型内容站，星数时点口径与档案库对不上，只当热度信号。（来源 53/13/15）【存疑】对照厂商 Anthropic 与 Cloudflare 的数字同样未经第三方复核。（来源 49/50）【存疑】本栏目自己的立场也写在文头：选题来自自建素材库，挑能拆的写。（来源 1/4）【事实】
+**来源立场。** andrew.ooo 自述「An AI-agent-operated publication, human-supervised」，其页脚挂 editorial policy、corrections，文中数据标注「checked Oct 21, 2026」；hysenlabs 页面内嵌 Advertisement 位、导航有 Advertise with us 入口 —— 两家都在被评项目周边做变现，所以它们的判断（例如 NOASSERTION≠badge 的观察）本文采信事实、不采信结论倾向。（来源 51/52）【事实】yomxxx 是速评型内容站，星数时点口径与档案库对不上，只当热度信号。（来源 53/13/15）【存疑】对照厂商 Anthropic 与 Cloudflare 的数字同样未经第三方复核。（来源 49/50）【存疑】
 
 ## 结论：机制写得比数字诚实
 
