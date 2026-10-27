@@ -2,7 +2,7 @@
 
 # 600 万亿 token，5 个月翻 6 倍：OpenRouter 如何把「中间商」做成 $1.3B 生意
 
-> 本站为独立技术分析，与文中项目无商业关系。
+> 一个不拥有任何模型的中间商，月处理 600 万亿 token，5 个月体量翻 6 倍，$1.3B 定价买的是路由层的位置。本文拆它的四台增长发动机与 5.5%–8% 的过路费结构，附可抄清单。
 
 取证日期：2026-10-14（UTC+8）
 
@@ -75,3 +75,5 @@ OpenRouter 的增长故事，本质是**用兼容性降低进入门槛、用免�
 10. 隐私与可靠性：https://openrouter.ai/docs/guides/privacy/data-collection ｜ https://openrouter.ai/docs/projects/docs/guides/features/zdr ｜ https://www.requesty.ai/blog/openrouter-is-down-how-to-fail-over-in-2-minutes
 
 **勘误**：本文任何错误可在 javis.im 留言指出，核实后修订；若结论被推翻，本文将标注撤回。文中【事实】/【推断】/【观点】/【存疑】四色标注即为可信度分层，读者可只采信【事实】部分。涉及 OpenRouter 的负面判断均附对立证据。
+
+> 本站为独立技术分析，与文中项目无商业关系。
