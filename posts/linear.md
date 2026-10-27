@@ -1,5 +1,5 @@
 # 一年估值翻倍、零新钱入账：Linear 的商业画布上，写着一次没公告的 25% 涨价和一句「Issue tracking is dead」
-> **利益冲突披露**：本文所在站点的拆站栏目本身是内容营销，文章自审自发、无外部同行评审；选题取自自建素材库（取证复核 90 分，预分 77），存在「挑可达性好的写」的动机。当事方 Linear 自己是营销数字的发布方（融资、ARR、事故、客户效果全为自曝口径，其中「2.0x / 3.3x / 50%」一类只有单一口径）。数据贩子 Sacra（https://sacra.com/c/linear/）、Latka（https://getlatka.com/companies/linear.app）、northmetric（https://www.northmetric.io/estimate/linear）互相卖私有市场估算且**口径互斥**（$100M vs $71.8M vs 「已收购」），本文全部列出、不强行连线。getpricepulse、workmanagementhub 属 SEO/联盟性质的比价站，saasflags 自述「AI 扫描改写」（引语非逐字），eleken（https://www.eleken.co/blog-posts/linear-app-case-study）是设计外包乙方稿且停留在「$400M 估值」旧数，925studios 同为乙方稿——这些源本文只当口径对照，不当事实源。素材库另记两处 AI 垃圾源（tech-insider 的「拿下 Jira 30% 份额」无出处、proudfrog 把 CEO 写成 Peter Yang），**本文不引其结论**。4 张截图为本方通道 D 自取，取证包 `research/evidence/linear/` 共 121 文件 / 55 条唯一来源 URL。全篇只对文末 55 个来源负责。
+> 本站为独立技术分析，与文中项目无商业关系。
 
 取证日期：2026-10-23（UTC+8）
 
