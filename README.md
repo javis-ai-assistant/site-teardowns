@@ -196,6 +196,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/hermes-agent.md`](posts/hermes-agent.md)（图片见站点原页）
 - 取证日期：2026-10-27
 
+### [9★ 到 119,087★ 只用 7 个月 23 天，Show HN 却只有 21 分：拆 Orca 商业画布，钱不在 IDE 里](https://javis.im/analysis/orca/)
+
+![orca](https://javis.im/analysis/orca/img/og.png)
+
+商业画布：一个 7 个月 23 天从 9★ 冲到 119,087★ 的 agent IDE，Show HN 却只有 21 分、10 条评论——拆 Orca（stablyai/orca，YC W22 团队 Stably AI 开源）：建仓 2026-03-17T03:28Z，取证日 API 119,087★，星标曲线全程无平台期，区间日均一路爬到取证前 39 天的 938★/天（对照第 19 篇两条爆款最终都收敛到日均约 260★）。钱不在 IDE 里：onorca.dev/pricing 取证日 404，主站 JSON-LD 自答「Orca is completely free… MIT」、首屏写 Bring your own agent / subscription，用户模型订阅费付给 Anthropic/OpenAI 不经过 Orca 一分钱（No model in the middle）；钱线一在母产品 Stably QA 订阅四档 Hobby $0 / Team $60/月 / Growth $250/月 / Enterprise Custom（浏览器 $0.01/分钟、AI tokens $0.30–15/百万），Stably 首页还把 Orca 挂在最顶上当获客入口；钱线二是 Enterprise contact sales（Get in touch / Email us，三件套 No silent changes / Audit trail by default / Your providers your keys），合规栏原文 AICPA SOC 2 Readiness——就绪≠已认证。家底四组读数：1,000 个 release 合计 158,707,178 次下载（230 天约 4.3 个/天）、467 名贡献者 / 19,884 次贡献、top1 = CTO 本人 nwparker 7,488（37.7%）、watchers 仅 158；同口径 issue 关闭率 57.2%、PR 87.4%，label:bug 开放 1,232。渠道是安装分发型：Show HN 21 分与 GitHub trending 周 +9,828★ 并存，App Store 2026-05-07 上架 4.69 分 / 74 评分、插件市场 169 = 43 官方 + 126 社区、README 九语言。风险格记 LICENSE 三段史（无文件 → Apache 残留 → MIT）、六个同名混淆面与 orca.dev 停放史。框架卡=商业画布，评分卡复核 90/100（预分 85），48 条来源四色标注、取证包 100 文件，防投毒扫描零注入命中。
+
+- 在线阅读（中文）：https://javis.im/analysis/orca/ ｜ 英文版：https://javis.im/analysis/orca/index-en
+- 仓库副本：[`posts/orca.md`](posts/orca.md)（图片见站点原页）
+- 取证日期：2026-11-09
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
