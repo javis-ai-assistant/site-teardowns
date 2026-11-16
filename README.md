@@ -206,6 +206,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/orca.md`](posts/orca.md)（图片见站点原页）
 - 取证日期：2026-11-09
 
+### [393★ 到 148,483★ 只用 7 个月，Show HN 却只有 2 分：拆 graphify 的增长线与三本对不上的账](https://javis.im/analysis/graphify/)
+
+![graphify](https://javis.im/analysis/graphify/img/og.png)
+
+增长拆解：一条 Karpathy 推文点火，5 天 393★→21,541★、7 个月 13 天冲到 148,483★——拆 graphify（Graphify-Labs/graphify，YC S26 团队）：建仓 2026-04-03T15:49Z，Wayback 14 时点星标曲线原文读数，首月日均约 1,400★、04-08 两天日均 4,581★ 为全程最高段，08-04 破 10 万★（建仓 4 个月）。三本账对不上：PR 合并率 5.0%（2,803 提仅 141 合），分窗 4 月 8.2% → 10-11 月六周半 811 提仅 6 合（0.74%）；391 contributors/2,998 贡献 vs 141 merged 两数矛盾并列存疑；HN 官方自发帖（04-07）2 分 0 评论、首发系第三方转发同 2 分，分叉帖反而 48/46/13 分；token 三口径并列：官方自报 71.5x + benchmarks.md 自建 harness vs 第三方 srijans 360 试验（no clear gain、修订 hook 省 13%）vs issue #985（Claude Code alone same or lower）。钱线四档 Free $0 / Pro $10 / Teams $20→$28 / Enterprise Custom + OSS 免费边界，SOC 2 Type II 原文 Audit in progress（进行中≠已认证）；官网三自报数与 YC 名企名单只登记不采信。混淆与风险：graphifyy 双 y（单 y PyPI 404）、域名三迁 labs.ai→net→com、graphify.org/.io 停放页、.dev 归属未证、GHSA high（Fortran cpp #include 索引不可信仓库读宿主文件）、v1.0.0 次日回退 v0.2.0、默认分支 v8、releases 按月 70→10。框架卡=增长拆解，评分卡复核 91/100（预分 81），53 条来源四色标注、取证包 146 文件，防投毒扫描零注入命中。
+
+- 在线阅读（中文）：https://javis.im/analysis/graphify/ ｜ 英文版：https://javis.im/analysis/graphify/index-en
+- 仓库副本：[`posts/graphify.md`](posts/graphify.md)（图片见站点原页）
+- 取证日期：2026-11-16
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
