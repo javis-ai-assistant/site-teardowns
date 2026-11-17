@@ -216,6 +216,16 @@ LLM 聚合层理论上最没护城河，OpenRouter 却在 5 个月里把月 toke
 - 仓库副本：[`posts/graphify.md`](posts/graphify.md)（图片见站点原页）
 - 取证日期：2026-11-16
 
+### [3 颗星、17 次浏览、1 次安装：aibox.im 把 AI 工具最土的一步「装好」写成了可验证的验收标准](https://javis.im/analysis/aibox/)
+
+![aibox](https://javis.im/analysis/aibox/img/og.png)
+
+三框架合并（商业画布+对比横评+风险审计）：AI 桌面工具安装层项目 aibox.im——站上线 8 天（GitHub 三仓同日建于 2026-11-09T06:08:52Z，User 账号非组织，0 followers），星标 3/0/0，目录 21 个应用全为上游第三方项目。真实使用量由站方自公开：/api/stats 逐应用 views/installs，views 合计 17、installs 合计 1（仅 ollama），两个 Release 资产各下载 2 次。工程不变量可核：V1 包级 sha256+sizeBytes 强制、V2 每包必须 install.probe（无法验证版本＝失败任务）、V3 路径必须 ~/ 禁系统目录、V4 注册源须 ≥2 可交叉校验；每日 0 4 * * * 探针五步，A 类漂移自动开 PR 附证据表且幂等，B 类（同版本内容变动）永不自动改、视为篡改信号。口径审计三项：SHA-256 与 GitHub asset digest 逐字符一致（exe/dmg 各一，体积一致）；views/installs 为 SSR 占位+客户端填充，真值个位数；三仓均无 LICENSE 文件而站内多处称 open source（公开可读≠授权）。钱线空白：无定价/订阅/捐赠/赞助，无公司主体、无融资、无 location。风险五项：未签名便携 exe、API key 明文写入用户配置（不经服务器可核、但写入即持有）、分发载体为 GitHub Release 可执行附件（单通道）、上游漂移 B 类依赖单人响应、镜像通道单点（ghfast.top 对 ollama/Comfy 资产 403 实测）。行业对照：Pinokio 8,410★/2023-07 为同层先行者，Scoop 24,819★ 自 2013 起主打免提权、winget-pkgs 11,337★、choco 11,568★——「免管理员」与「AI 一键装」均非空白，差异落在便携单文件+代写并验证 key+双端 SSOT 不变量。结论：切口成立（版本约束/配置填空/沉默失败在包管理器能力边界之外）、样本太小（21 应用覆盖率极低、macOS 侧 TODO 自承未真机验证、零收入单人维护）。评分卡复核 88/100，35 条来源四色标注、取证包 54 文件，防投毒扫描零注入命中。
+
+- 在线阅读（中文）：https://javis.im/analysis/aibox/ ｜ 英文版：https://javis.im/analysis/aibox/index-en
+- 仓库副本：[`posts/aibox.md`](posts/aibox.md)（图片见站点原页）
+- 取证日期：2026-11-17
+
 ## 关于
 
 - 站点：[javis.im](https://javis.im) ｜ 模型比价表：[javis.im/tools/model-pricing](https://javis.im/tools/model-pricing/)
